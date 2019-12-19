@@ -1,0 +1,70 @@
+{
+    "name": "Cryptagio",
+    "description": "<p>Cryptagio is a global crypto exchange, providing a simple, fast and secure way to buy, sell or trade the world&rsquo;s most eminent digital assets.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28851-api-cryptagio-com.jpg",
+    "tags": [
+        "blockchain",
+        "cryptocurrency",
+        "general data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cryptagio\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Cryptagio API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28851-api-cryptagio-com.jpg",
+            "humanURL": "http:\/\/www.cryptagio.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cryptagio-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cryptagio-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/medium.com\/@cryptagio"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "view-source:https:\/\/medium.com\/feed\/@cryptagio"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.cryptagio.com"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/api.cryptagio.com\/docs\/"
+        },
+        {
+            "type": "Security",
+            "url": "https:\/\/cryptagio.com\/about"
+        },
+        {
+            "type": "Support",
+            "url": "https:\/\/support.cryptagio.com\/hc\/en-us"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/cryptagio"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/api.cryptagio.com"
+        }
+    ]
+}
