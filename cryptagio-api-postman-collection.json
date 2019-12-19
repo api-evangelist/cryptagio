@@ -1,0 +1,392 @@
+{
+    "id": "42a8728380c5aa55c8aa22ca2140332f",
+    "name": "Cryptagio API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "73559578c33015e1d930b47b9aca19bd",
+            "name": "Get Info",
+            "url": "https\/\/info",
+            "description": "Get information..",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "cfd943540e2a06055faa8f8189bb16da",
+            "name": "Get Ticker",
+            "url": "https\/\/ticker",
+            "description": "Get ticker of all markets..",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "26551b79f938c9542ba167db59e62755",
+            "name": "Get Trades",
+            "url": "https\/\/trades",
+            "description": "Get recent trades on market, each trade is included only once. Trades are sorted in reverse creation order.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Limit the number of returned trades.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "If set, returned orders will be sorted in specific order.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from_time",
+                    "description": "Filter trades by time. An integer represents the seconds elapsed since Unix epoch. If set, only data after that time will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to_time",
+                    "description": "Filter trades by time. An integer represents the seconds elapsed since Unix epoch. If set, only data before that time will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from_uuid",
+                    "description": "Filter trades by id. If set, only trades created after the trade will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "market",
+                    "description": "Filter trades by market. It's always in the form of xxxyyy, where xxx is the base currency code, yyy is the quote currency code.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "side",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "08bfb887bb9e5993618b02f5ccc4108c",
+            "name": "Get My Trades",
+            "url": "https\/\/trades\/my",
+            "description": "Trades are sorted in reverse creation order.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Limit the number of returned trades.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "If set, returned orders will be sorted in specific order.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from_time",
+                    "description": "Filter trades by time. An integer represents the seconds elapsed since Unix epoch. If set, only data after that time will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to_time",
+                    "description": "Filter trades by time. An integer represents the seconds elapsed since Unix epoch. If set, only data before that time will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from_uuid",
+                    "description": "Filter trades by id. If set, only trades created after the trade will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "market",
+                    "description": "Filter trades by market. It's always in the form of xxxyyy, where xxx is the base currency code, yyy is the quote currency code.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "side",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "01191dca49965ebb13bbf1954467bef0",
+            "name": "Get Balances",
+            "url": "https\/\/balances",
+            "description": "Get user balances..",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "624181f0c408981a60e041fa26108585",
+            "name": "GetMy  Orders",
+            "url": "https\/\/orders\/my",
+            "description": "Trades are sorted in reverse creation order.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Limit the number of returned trades.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "If set, returned orders will be sorted in specific order.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from_time",
+                    "description": "Filter trades by time. An integer represents the seconds elapsed since Unix epoch. If set, only data after that time will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to_time",
+                    "description": "Filter trades by time. An integer represents the seconds elapsed since Unix epoch. If set, only data before that time will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from_uuid",
+                    "description": "Filter trades by id. If set, only trades created after the trade will be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "market",
+                    "description": "Filter trades by market. It's always in the form of xxxyyy, where xxx is the base currency code, yyy is the quote currency code.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "side",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Filter orders by type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "Filter orders by status.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b7f7289bbb65940cb908c4e969d91cb",
+            "name": "Post Orders",
+            "url": "https\/\/orders",
+            "description": "Accepts an array of JSON objects.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "0367615d7d97eb85191af2175bc51eb1",
+            "name": "Post Orders Cancel",
+            "url": "https\/\/orders\/cancel",
+            "description": "Accepts JSON object. Cancels all orders if no parameters are passed.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        },
+        {
+            "id": "798bcd3b8a80a5e1ae60a4f51d0f8986",
+            "name": "Delete Orders",
+            "url": "https\/\/orders\/{uuid}",
+            "description": "Cancel order by uuid..",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "uuid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "rawModeData": ""
+        }
+    ]
+}
