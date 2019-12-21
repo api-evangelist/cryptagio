@@ -1,5 +1,5 @@
 {
-    "id": "42a8728380c5aa55c8aa22ca2140332f",
+    "id": "09664f507f32aa6ddafe11cae3003caf",
     "name": "Cryptagio API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "73559578c33015e1d930b47b9aca19bd",
+            "id": "60f08c16a9550299d4833868be763fcb",
             "name": "Get Info",
             "url": "https\/\/info",
             "description": "Get information..",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "cfd943540e2a06055faa8f8189bb16da",
+            "id": "eb858184c134380103409250e70c39bf",
             "name": "Get Ticker",
             "url": "https\/\/ticker",
             "description": "Get ticker of all markets..",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "26551b79f938c9542ba167db59e62755",
+            "id": "e112361503e07a9fa5517648669aba19",
             "name": "Get Trades",
             "url": "https\/\/trades",
             "description": "Get recent trades on market, each trade is included only once. Trades are sorted in reverse creation order.",
@@ -125,11 +125,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "08bfb887bb9e5993618b02f5ccc4108c",
+            "id": "a018e25787b0a05cb306843f9c24c97a",
             "name": "Get My Trades",
             "url": "https\/\/trades\/my",
             "description": "Trades are sorted in reverse creation order.",
@@ -198,11 +198,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "01191dca49965ebb13bbf1954467bef0",
+            "id": "e6282b26717a3c414e5b3c62c8f1bb79",
             "name": "Get Balances",
             "url": "https\/\/balances",
             "description": "Get user balances..",
@@ -221,11 +221,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "624181f0c408981a60e041fa26108585",
+            "id": "a8faaf3bb69d872f1b623a86606d0fbf",
             "name": "GetMy  Orders",
             "url": "https\/\/orders\/my",
             "description": "Trades are sorted in reverse creation order.",
@@ -308,11 +308,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "2b7f7289bbb65940cb908c4e969d91cb",
+            "id": "5ae64289f4a25567a1caff3230a84dec",
             "name": "Post Orders",
             "url": "https\/\/orders",
             "description": "Accepts an array of JSON objects.",
@@ -331,11 +331,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "0367615d7d97eb85191af2175bc51eb1",
+            "id": "68e08a65b95f84ae562f2f021bb7eb81",
             "name": "Post Orders Cancel",
             "url": "https\/\/orders\/cancel",
             "description": "Accepts JSON object. Cancels all orders if no parameters are passed.",
@@ -354,11 +354,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         },
         {
-            "id": "798bcd3b8a80a5e1ae60a4f51d0f8986",
+            "id": "07b12a2d2d5d4fafcde02ffeb6f1acac",
             "name": "Delete Orders",
             "url": "https\/\/orders\/{uuid}",
             "description": "Cancel order by uuid..",
@@ -385,7 +385,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "42a8728380c5aa55c8aa22ca2140332f",
+            "collectionId": "09664f507f32aa6ddafe11cae3003caf",
             "rawModeData": ""
         }
     ]
